@@ -1,15 +1,18 @@
-* {
-  border: 1px solid black;
-}
-
 .wrapper {
   background-color: white;
 }
 
+.margin {
+  width: 75%;
+  margin: 0 auto;
+}
+
 body {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   background-color: #0f0f0f;
+  font-size: 16px;
+  color: #333333;
 }
 
 .logo {
@@ -24,15 +27,21 @@ hgroup {
   padding: 0;
 }
 
-h1 {
+.site-heading {
   margin: 0;
+  margin-bottom: 0;
   padding: 0;
+  vertical-align: bottom;
+  font-size: 250%;
   font-family: 'Yellowtail', cursive;
 }
 
 .sub-heading {
   margin: 0;
-
+  padding: 0;
+  vertical-align: top;
+  font-size: 80%;
+  font-family: sans-serif;
 }
 
 nav {
@@ -43,14 +52,81 @@ nav {
   margin-left: 5px;
 }
 
+.bar {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-repeat: repeat-x;
+}
+
+.recipe-title {
+  font-family: Georgia, serif;
+}
+
+.print {
+  float: right;
+}
+
+.print p {
+  display: inline;
+}
+
+.recipe-title {
+  margin: 0;
+  font-size: 230%;
+  font-family: impact, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.choco-pizza {
+  margin: 0 auto;
+}
+
+.instructions {
+  font-size: 130%;
+}
+
 .recipe {
   background-image: url("img/list-bg.png");
 }
 
 ul {
   display: inline-block;
+  margin-left: 4%;
 }
 
 li {
-  
+  font-size: 150%;
+  list-style-image: url("img/bullet.jpg");
+}
+
+.small-logo {
+  text-align: center;
+}
+
+.author-info h2 {
+  display: inline-block;
+}
+
+.author-info p {
+  display: block;
+  margin: 0;
+  padding: 2%;
+  text-align: center;
+}
+
+.van-pic {
+  display: inline-block;
+  padding: 0;
+}
+
+.share-button {
+  float: right;
+  display: inline-block;
+  background-color: orangered;
+  color: white;
+}
+
+footer {
+  text-align: center;
 }
